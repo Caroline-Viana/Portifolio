@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    height: 10vh;
+    padding: 0 5rem;
+    background-color: var(--azul-forte);
+}
+
+.nav_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav_item{
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,93 @@
+.banner{
+    height: 90vh;
+    background-image: url(https://ik.imagekit.io/carolviana/Banner.png?updatedAt=1686581388910);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_container{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.banner_img{
+    width: 40%;
+}
+
+.banner_secao-titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 64px;
+    color: var(--branco);
+    margin-bottom: 1rem;
+}
+
+.banner_secao-texto{
+    color: var(--azul-forte);
+    font-size: 32px;
+}
+
+.bio_link{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding: 1.5rem 0;
+}
+
+.bio_link::after{
+    content: '';
+    display: block;
+    width: 7rem;
+    height: .2rem;
+    background-color: var(--azul-forte);
+    margin: -1.5rem auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.bio_texto{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+    color: var(--azul-forte);
+    padding: .5rem 0;
+}
+
+.bio_texto::after{
+    content: '';
+    display: block;
+    width: 7rem;
+    height: .2rem;
+    background-color: var(--azul-forte);
+    margin: -1rem auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.bio_cv{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    margin: 1rem auto;
+    padding: .5rem;
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    color: var(--azul-claro);
+    border: 2px solid var(--azul-claro);
+    border-radius: 20px;
+}
+
+.bio_cv:hover{
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    transition: .5s;
+}
