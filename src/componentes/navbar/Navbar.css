@@ -8,6 +8,20 @@
     background-color: var(--azul-forte);
 }
 
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.menu__app{
+    display: none;
+}
+
+.menu__icone{
+    color: var(--branco);
+}
+
 .nav_link{
     display: flex;
     justify-content: center;
@@ -18,4 +32,15 @@
 .nav_item{
     font-weight: bold;
     color: white;
+}
+
+@media (max-width: 850px) {
+    
+    .menu__principal{
+        display: none;
+    }
+
+    .menu__app{
+        display: block;
+    }
 }

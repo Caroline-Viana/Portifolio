@@ -81,7 +81,7 @@
 
 .list__conteudo {
     width: 25%;
-    height: 25rem;
+    height: 35vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -94,13 +94,66 @@
     color: var(--branco);
 }
 
-.list__conteudo-item {
+.list__conteudo-item1, .list__conteudo-item2 {
     display: flex;
     flex-direction: column;
     gap: 15px;
     color: var(--preto);
 }
 
+.list__conteudo-item3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    color: var(--preto);
+}
+
 span{
     color: var(--azul-claro);
+}
+
+@media (max-width: 840px){
+
+    .sobre_info{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 3rem 0;
+        gap: 2rem;
+    }
+
+    .sobre_texto{
+        width: 80%;
+    }
+
+    .sobre_tec{
+        width: 100%;
+    }
+
+    .tec_icons{
+        border: none;
+    }
+
+}
+
+@media (max-width: 650px){
+    .tec_titulo{
+        font-size: 26px;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list__conteudo{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 4rem;
+    }
+
+    .list__conteudo-item3{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }

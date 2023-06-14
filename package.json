@@ -17,10 +17,12 @@
     "@material-ui/lab": "^4.0.0-alpha.60",
     "@mui/icons-material": "5.0.5",
     "@mui/material": "5.0.6",
+    "@types/react-burger-menu": "^2.8.3",
     "react": "^17",
     "react-dom": "^17",
     "react-icons": "^4.9.0",
-    "react-router-dom": "6"
+    "react-router-dom": "6",
+    "styled-off-canvas": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^17",

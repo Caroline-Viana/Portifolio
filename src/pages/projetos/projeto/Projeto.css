@@ -1,6 +1,6 @@
 .projeto{
     background-color: var(--azul-claro);
-    height: 75vh;
+    height: 50%;
 }
 
 .img{
@@ -46,4 +46,16 @@
 .projeto_conteudo-link:hover{
     background-color: var(--branco);
     color: var(--azul-forte);
+}
+
+@media (max-width: 650px){
+
+    .projeto{
+        height: 30%;
+    }
+
+    .projeto_img, .img {
+        width: 300px;
+        height: 200px;
+    }
 }

@@ -40,7 +40,7 @@ function Sobre() {
             <section className='list'>
                 <div className='list__conteudo'>
                     <h3 className='list__conteudo-titulo'>Escolaridade</h3>
-                    <ol className='list__conteudo-item'>
+                    <ol className='list__conteudo-item1'>
                         <li>Ensino médio - <span>Colégio Anna Taváres</span> - 2018</li>
                         <li>Tecnólogo em Gestão de Turismo -  <span>Instituto Federal de São Paulo</span> - 2021</li>
                         <li>Desenvolvedor Java FullStack - <span>Generation Brasil</span> - 2023 - 447h</li>
@@ -48,14 +48,14 @@ function Sobre() {
                 </div>
                 <div className='list__conteudo'>
                     <h3 className='list__conteudo-titulo'>Experiência</h3>
-                    <ol className='list__conteudo-item'>
+                    <ol className='list__conteudo-item2'>
                         <li>Monitora de ensino - <span>Instituto Federal de São Paulo</span> - 2021</li>
                         <li>Supervisora (ACS) - <span>IBGE</span> - 2022</li>
                     </ol>
                 </div>
                 <div className='list__conteudo'>
                     <h3 className='list__conteudo-titulo'>Habilidades</h3>
-                    <ul className='list__conteudo-item'>
+                    <ul className='list__conteudo-item3'>
                         <li>Java</li>
                         <li>Spring Boot</li>
                         <li>MySQL</li>
