@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { MdClose } from 'react-icons/md'
 import './MenuHamburger.css'
+import Projetos from '../../../pages/projetos/Projetos';
 
 interface Props {
     isOpen: boolean,
@@ -33,7 +34,7 @@ function MenuHamburger({ isOpen, setIsOpen }: Props) {
                             </Link>
 
                             <Link to="/portifolio">
-                                <li className='nav_app_item'>Portifólio</li>
+                                <li className='nav_app_item'>Projetos</li>
                             </Link>
 
                             <Link to="/contato">

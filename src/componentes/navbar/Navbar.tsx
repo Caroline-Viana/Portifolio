@@ -25,7 +25,7 @@ function Navbar() {
             </Link>
 
             <Link to="/portifolio">
-              <li className='nav_item'>Portifólio</li>
+              <li className='nav_item'>Projetos</li>
             </Link>
 
             <Link to="/contato">
