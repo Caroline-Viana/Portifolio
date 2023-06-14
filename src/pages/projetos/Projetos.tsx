@@ -4,7 +4,7 @@ import Projeto from './projeto/Projeto';
 import { useState } from 'react';
 
 function Projetos() {
-    const [lista, setLista] = useState(projects);
+    const [lista] = useState(projects);
   return (
     <>
         <h1 className="projetos_titulo">Projetos</h1>
