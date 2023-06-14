@@ -8,6 +8,11 @@
     background-color: var(--azul-forte);
 }
 
+.nav_logo{
+    width: 3rem;
+    padding-bottom: .3rem;
+}
+
 .menu{
     display: flex;
     align-items: center;

@@ -22,12 +22,12 @@
 .banner_secao-titulo{
     font-family: var(--fonte-titulo);
     font-size: 64px;
-    color: var(--azul-claro);
+    color: var(--azul-forte);
     margin-bottom: 1rem;
 }
 
 .banner_secao-texto{
-    color: var(--azul-forte);
+    color: var(--azul-claro);
     font-size: 32px;
 }
 

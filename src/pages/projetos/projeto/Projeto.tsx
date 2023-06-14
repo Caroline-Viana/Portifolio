@@ -1,11 +1,10 @@
-import React from 'react'
 import projects from '../projetos.json'
 import './Projeto.css'
 
 type Props = typeof projects[0];
 
 function Projeto(props: Props) {
-    const { categoria, foto, titulo, linkgit, linkapp } = props;
+    const { categoria, foto, titulo, linkgit } = props;
     return (
         <>
             <div className='projeto'>

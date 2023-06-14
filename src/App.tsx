@@ -5,6 +5,7 @@ import Sobre from './pages/sobre/Sobre'
 import Home from './pages/home/Home'
 import Projetos from './pages/projetos/Projetos'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Contato from './pages/contato/Contato'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/sobre' element={<Sobre/>}/>
           <Route path='/portifolio' element={<Projetos/>}/>
-          <Route path='/contato' />
+          <Route path='/contato'  element={<Contato/>}/>
         </Routes>
       </Router>
     </>

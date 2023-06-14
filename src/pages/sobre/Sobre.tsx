@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaHtml5, FaCss3Alt, FaReact, FaJava, FaSass, FaFigma } from 'react-icons/fa'
 import { SiJavascript, SiTypescript, SiMysql, SiSpring } from 'react-icons/si'
 import './Sobre.css'

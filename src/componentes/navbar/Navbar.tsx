@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Navbar.css'
-import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import { Link } from 'react-router-dom';
 import { SlMenu } from 'react-icons/sl'
 import MenuHamburger from './menuHamburger/MenuHamburger';
+import LogoPessoal from '../../assets/Logo pessoal.svg'
 
 
 function Navbar() {
@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div className='nav'>
-      <AutoAwesomeIcon style={{ fontSize: 40, color: "white" }} className='nav_logo' />
+      <img src={LogoPessoal} alt="" className='nav_logo'/>
       <div className='menu'>
         <nav className='menu__principal'>
           <ul className='nav_link'>
