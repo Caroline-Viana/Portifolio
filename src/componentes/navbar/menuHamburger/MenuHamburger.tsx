@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { MdClose } from 'react-icons/md'
 import './MenuHamburger.css'
-import Projetos from '../../../pages/projetos/Projetos';
 
 interface Props {
     isOpen: boolean,
